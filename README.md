@@ -1,20 +1,24 @@
-Event RSVP Manager Plugin
-Description
+**Event RSVP Manager Plugin**
+
+**Description**
+
 The Event RSVP Manager is a simple and intuitive WordPress plugin that allows event organizers to manage event registrations with admin approval. It provides a complete solution for creating events, registering users for those events, and allowing administrators to approve or reject registration requests. Only logged-in users can register for events, ensuring a secure and authenticated process.
 
-Features
+**Features**
+
 Event Creation and Management: Admins can create and manage events using a custom post type, adding all necessary details.
 User Registration: Only logged-in users can register for events through a styled registration form.
 Admin Approval: Registrations are saved with a "pending" status until approved or rejected by an admin.
 Pending Requests Management: Admins can view, approve, or delete pending registrations via an easy-to-use admin panel.
 Approved Guests List: Once approved, the users are moved to an "Approved Guests" list, which can be displayed in the admin panel or via a shortcode.
 Email Notifications: Optional confirmation emails can be sent upon registration submission.
-User Manual
-1. Installation Instructions
+
+**User Manual**
+**1. Installation Instructions**
 Download the plugin code and upload it to your WordPress site's wp-content/plugins directory.
 Activate the plugin via the Plugins menu in the WordPress admin dashboard.
 Once activated, the plugin will create a custom post type called Events and a database table for RSVP management.
-2. How to Use
+**2. How to Use**
 Creating an Event
 Go to the Events menu in the WordPress admin panel.
 Click Add New to create a new event.
@@ -31,12 +35,12 @@ Approved Guests
 Once a user’s registration is approved, they are moved to the "Approved Guests" list.
 You can display this list in the admin panel under the Approved Guests submenu.
 You can also display the list of approved guests on the frontend using the [erm_approved_guests] shortcode.
-3. Admin Features
+**3. Admin Features**
 Add Event: Admins can add a new event from the Events section in the admin panel.
 Pending RSVP Requests: Admins can manage pending registrations from the RSVP Manager page.
 Approve or Reject Registrations: Admins can approve or reject registrations with one click. Approved registrations are moved to the approved list, and rejected registrations are deleted.
 Approved Guests List: Admins can view all approved guests from the Approved Guests page.
-4. Shortcodes
+**4. Shortcodes**
 [erm_rsvp_form]: Displays the event registration form for logged-in users. If the user is not logged in, they will be prompted to log in or register.
 [erm_approved_guests]: Displays the list of approved guests for events.
 Example Usage
