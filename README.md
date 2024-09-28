@@ -14,11 +14,15 @@ Approved Guests List: Once approved, the users are moved to an "Approved Guests"
 Email Notifications: Optional confirmation emails can be sent upon registration submission.
 
 **User Manual**
+
 **1. Installation Instructions**
+
 Download the plugin code and upload it to your WordPress site's wp-content/plugins directory.
 Activate the plugin via the Plugins menu in the WordPress admin dashboard.
 Once activated, the plugin will create a custom post type called Events and a database table for RSVP management.
+
 **2. How to Use**
+
 Creating an Event
 Go to the Events menu in the WordPress admin panel.
 Click Add New to create a new event.
@@ -35,16 +39,27 @@ Approved Guests
 Once a user’s registration is approved, they are moved to the "Approved Guests" list.
 You can display this list in the admin panel under the Approved Guests submenu.
 You can also display the list of approved guests on the frontend using the [erm_approved_guests] shortcode.
+
 **3. Admin Features**
+
 Add Event: Admins can add a new event from the Events section in the admin panel.
 Pending RSVP Requests: Admins can manage pending registrations from the RSVP Manager page.
 Approve or Reject Registrations: Admins can approve or reject registrations with one click. Approved registrations are moved to the approved list, and rejected registrations are deleted.
 Approved Guests List: Admins can view all approved guests from the Approved Guests page.
+
 **4. Shortcodes**
-[erm_rsvp_form]: Displays the event registration form for logged-in users. If the user is not logged in, they will be prompted to log in or register.
-[erm_approved_guests]: Displays the list of approved guests for events.
-Example Usage
-Create an Event:
+
+**[erm_rsvp_form]:**
+
+Displays the event registration form for logged-in users. If the user is not logged in, they will be prompted to log in or register.
+**
+[erm_approved_guests]:**
+
+Displays the list of approved guests for events.
+
+**Example Usage**
+
+**Create an Event:**
 
 Add a new event by navigating to the Events menu and clicking Add New. Once the event is created, users will be able to register for it.
 RSVP Form on a Page:
